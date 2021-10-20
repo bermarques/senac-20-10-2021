@@ -10,6 +10,6 @@ function mult(valorUm, valorDois){
     return valorUm * valorDois
 }
 
-function div(){
-    //TODO: Implementar divisão
+function div(valorUm, valorDois){
+    return valorUm / valorDois
 }
