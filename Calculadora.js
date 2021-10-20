@@ -2,8 +2,8 @@ function sum(){
     //TODO: Implementar soma
 }
 
-function sub(){
-    //TODO: Implementar subtração
+function sub(valorUm, valorDois){
+    return valorUm - valorDois
 }
 
 function mult(){
