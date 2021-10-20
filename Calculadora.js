@@ -6,8 +6,8 @@ function sub(valorUm, valorDois){
     return valorUm - valorDois
 }
 
-function mult(){
-    //TODO: Implementar multiplicação
+function mult(valorUm, valorDois){
+    return valorUm * valorDois
 }
 
 function div(){
