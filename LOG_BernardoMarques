@@ -1,0 +1,44 @@
+    1  git clone git@github.com:bermarques/senac-20-10-2021.git
+    2  ls
+    3  cd senac-20-10-2021
+    4  git checkout -b feature/sum
+    5  code .
+    6  node Calculadora.js
+    7  history
+    8  git checkout main
+    9  git checkout master
+   10  git checkout -b dev
+   11  git push origin dev
+   12  git checkout feature/sum
+   13  git push origin feature/sum
+   14  git add .
+   15  git commit -m "feature: function to sum two values" 
+   16  git push origin feature/sum
+   17  git checkout master
+   18  git checkout -b feature/sub
+   19  git add .
+   20  git commit -m "feature: function to subtract two values"
+   21  git push origin feature/sub
+   22  git checkout master
+   23  git checkout -b feature/mult
+   24  git add .
+   25  git commit -m "feature: function to multiply two values"
+   26  git push origin feature/mult
+   27  git checkout master
+   28  git checkout -b feature/div
+   29  git add .
+   30  git commit -m "feature: function to divide two values"
+   31  git push origin feature/div
+   32  git checkout dev
+   33  git pull origin dev
+   34  git checkout master
+   35  git pull origin master
+   36  git checkout dev
+   37  git add .
+   38  git commit "chore: add readme"
+   39  git commit -m "chore: add readme"
+   40  git push origin dev
+   41  git checkout master
+   42  git pull origin master
+   43  git tag -a 1.0.0
+   44  git push origin 1.0.0
