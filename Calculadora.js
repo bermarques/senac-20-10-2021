@@ -1,5 +1,5 @@
-function sum(){
-    //TODO: Implementar soma
+function sum(valorUm, valorDois){
+    return valorUm + valorDois
 }
 
 function sub(){
